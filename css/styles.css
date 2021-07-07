@@ -689,6 +689,7 @@ footer hr {
   /* navbar styling */
   .nav1 {
     padding: 0 10px;
+    background-color: #90EE90;
   }
 
   #logo1 {
@@ -778,14 +779,6 @@ footer hr {
     flex-direction: column;
   }
 
-  .rover-top {
-    height: auto;
-    padding: 10px;
-    margin: 20px 0px;
-    border-radius: 0px;
-    width: 100%;
-  }
-
   .rover-image {
     margin: 0;
   }
@@ -797,7 +790,7 @@ footer hr {
     height: 300px;
   }
 
-  .rover-left1 {
+  .rover-left {
     height: auto;
     width: 100%;
     margin: 20px 0px;
@@ -805,36 +798,12 @@ footer hr {
     border-radius: 0%;
   }
 
-  .rover-left2 {
+  .rover-right {
     height: auto;
     width: 100%;
     margin: 20px 0px;
     padding: 20px;
     border-radius: 0%;
-  }
-
-  .rover-right1 {
-    height: auto;
-    width: 100%;
-    margin: 20px 0px;
-    padding: 20px;
-    border-radius: 0%;
-  }
-
-  .rover-right2 {
-    height: auto;
-    width: 100%;
-    margin: 20px 0px;
-    padding: 20px;
-    border-radius: 0%;
-  }
-
-  .rover-bottom {
-    height: auto;
-    padding: 10px;
-    margin: 20px 0px;
-    border-radius: 0px;
-    width: 100%;
   }
 
   /* support us styling */
