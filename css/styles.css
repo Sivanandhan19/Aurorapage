@@ -118,6 +118,10 @@ body::-webkit-scrollbar-thumb {
   transform: translate3d(0, 0, 0);
 }
 
+.intro-bg{
+  height: 800px;
+}
+
 /* arrow styling */
 .arrow {
   z-index: 1;
@@ -126,7 +130,7 @@ body::-webkit-scrollbar-thumb {
   width: 20px;
   position: relative;
   text-align: center;
-  color: #ffffff;
+  color: #000032;
 }
 
 .arrow i {
