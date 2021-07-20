@@ -119,6 +119,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .intro-bg {
+  width: 1680px;
   height: 800px;
 }
 
@@ -165,10 +166,10 @@ body::-webkit-scrollbar-thumb {
 /* top container styling */
 .top-container {
   color: #ffffff;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   background-color: #000032;
   font-family: 'PT Sans', sans-serif;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .top-container h1 {
@@ -232,7 +233,7 @@ body::-webkit-scrollbar-thumb {
   color: #ffffff;
   border-radius: 10px;
   width: 100%;
-  margin: 3% 0;
+  margin: 0;
   padding: 0 5vw;
   font-size: 1px;
 }
@@ -253,7 +254,7 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
 }
 
-.intro-line{
+.intro-line {
   width: 50%;
   display: block;
   height: 0.1px;
@@ -513,7 +514,7 @@ span {
   text-align: center;
 }
 
-.rover-line{
+.rover-line {
   width: 20em;
   display: block;
   height: 0.1px;
@@ -733,7 +734,9 @@ footer hr {
 
   /* bg-img styling */
   .intro-bg {
-    height: 500px;
+    width: 1050px;
+    height: 400px;
+    margin-top: 80px;
   }
 
   /* arrow styling */
@@ -799,7 +802,7 @@ footer hr {
     flex-direction: column;
   }
 
-  .rover-line{
+  .rover-line {
     width: 20em;
     display: block;
     height: 0.1px;

@@ -11,7 +11,7 @@ $(document).ready(function() {
     var w = window.innerWidth;
     var h = window.innerHeight;
     if (w < 800) {
-      window.scrollBy(0, 550);
+      window.scrollBy(0, 500);
     } else {
       window.scrollBy(0, 800);
     }
