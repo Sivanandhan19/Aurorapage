@@ -118,7 +118,7 @@ body::-webkit-scrollbar-thumb {
   transform: translate3d(0, 0, 0);
 }
 
-.intro-bg{
+.intro-bg {
   height: 800px;
 }
 
@@ -253,10 +253,13 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
 }
 
-hr {
+.intro-line{
   width: 50%;
-  height: 1px;
+  display: block;
+  height: 0.1px;
+  border-color: #121212;
   background-color: #121212;
+  margin: 0px auto 10px;
 }
 
 span {
@@ -357,8 +360,8 @@ span {
 }
 
 .my-gallery img {
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 286px;
   margin: 5rem;
 }
 
@@ -384,9 +387,9 @@ span {
 }
 
 .card-title {
-  width: 25%;
+  width: 20%;
   background-color: #000032;
-  padding: 80px 1rem 0;
+  padding: 80px 8px 0;
   margin: 0;
 }
 
@@ -403,7 +406,7 @@ span {
 }
 
 .card-img {
-  width: 25%;
+  width: 30%;
 }
 
 .card-img img {
@@ -452,39 +455,43 @@ span {
 }
 
 @-moz-keyframes shimmer {
-		0% {
-				background-position: top left;
-		}
-		100% {
-				background-position: top right;
-		}
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
 }
 
 @-webkit-keyframes shimmer {
-		0% {
-				background-position: top left;
-		}
-		100% {
-				background-position: top right;
-		}
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
 }
 
 @-o-keyframes shimmer {
-		0% {
-				background-position: top left;
-		}
-		100% {
-				background-position: top right;
-		}
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
 }
 
 @keyframes shimmer {
-		0% {
-				background-position: top left;
-		}
-		100% {
-				background-position: top right;
-		}
+  0% {
+    background-position: top left;
+  }
+
+  100% {
+    background-position: top right;
+  }
 }
 
 .rover-div {
@@ -504,6 +511,15 @@ span {
   font-weight: bolder;
   color: #fff;
   text-align: center;
+}
+
+.rover-line{
+  width: 20em;
+  display: block;
+  height: 0.1px;
+  border-color: #fff;
+  background-color: #fff;
+  margin: 0px auto 10px;
 }
 
 .rover-left {
@@ -540,7 +556,7 @@ span {
 
 .rover-image img {
   /* border-radius: 10%; */
-  width: 480px;
+  width: 384px;
   height: 510px;
 }
 
@@ -716,8 +732,8 @@ footer hr {
   }
 
   /* bg-img styling */
-  #my-carousel img {
-    height: 400px;
+  .intro-bg {
+    height: 500px;
   }
 
   /* arrow styling */
@@ -774,13 +790,22 @@ footer hr {
   /* media styling */
   .my-gallery img {
     width: 300px;
-    height: 300px;
+    height: 171px;
     margin: 2rem;
   }
 
   /* rover styling */
   .rover-div {
     flex-direction: column;
+  }
+
+  .rover-line{
+    width: 20em;
+    display: block;
+    height: 0.1px;
+    border-color: #fff;
+    background-color: #fff;
+    margin: 0px auto 10px;
   }
 
   .rover-image {
@@ -790,8 +815,8 @@ footer hr {
   .rover-image img {
     margin: 0;
     border-radius: 0;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 466px;
   }
 
   .rover-left {
@@ -818,8 +843,7 @@ footer hr {
   .support-div h1 {
     font-weight: bolder;
     margin: 10px 0;
-    padding-right: 100px;
-    text-align: left;
+    text-align: center;
   }
 
   .support-div p {
