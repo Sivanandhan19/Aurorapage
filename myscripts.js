@@ -1,7 +1,8 @@
 $(window).scroll(function() {
   $('.nav1').toggleClass('scrolled', $(this).scrollTop() > 20);
-  $("#logo1").toggleClass('img-scrolled1', $(this).scrollTop() > 20);
-  $(".brand1").toggleClass('brand-size', $(this).scrollTop() > 20);
+  $('.nav-link').toggleClass('link-change', $(this).scrollTop() > 20);
+  // $("#logo1").toggleClass('img-scrolled1', $(this).scrollTop() > 20);
+  $(".brand1").toggleClass('brand1-size', $(this).scrollTop() > 20);
   $(".brand2").toggleClass('brand2-size', $(this).scrollTop() > 20);
 });
 
