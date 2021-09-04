@@ -9,7 +9,18 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
-
+h1{
+  font-size: 22px;
+}
+h2{
+  font-size:20px;
+}
+h4{
+  font-size: 18px;
+}
+p{
+  font-size: 14px;
+}
 body::-webkit-scrollbar {
   width: 0.25rem;
 }
@@ -242,7 +253,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 5% 0;
   padding: 0 8vw;
-  font-size: 1px;
 }
 
 .intro-div {
@@ -254,7 +264,6 @@ body::-webkit-scrollbar-thumb {
 .intro-div-1 {
   padding: 20px;
   width: 50%;
-  /* margin:0 50px; */
 }
 
 .intro-div-2 {
@@ -278,7 +287,7 @@ span {
 }
 
 .intro h1 {
-  font-size: 22px;
+  /* font-size: 22px; */
   text-align: center;
   font-weight: bolder;
   font-family: 'Petrona', serif;
@@ -337,7 +346,6 @@ span {
 }
 
 .img-content h4 {
-  font-size: 18px;
   color: #000032;
   font-weight: bolder;
 }
@@ -368,7 +376,7 @@ span {
 }
 
 .zoom-without-container:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -415,7 +423,6 @@ span {
 }
 
 .card-content p {
-  font-size: 14px;
   text-align: justify !important;
 }
 
@@ -515,13 +522,13 @@ span {
 }
 
 .rover-div h1 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   font-weight: bolder;
   color: #90EE90;
 }
 
 .rover-div p {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-weight: bolder;
   color: #fff;
   text-align: center;
@@ -567,7 +574,6 @@ span {
 }
 
 .rover-image img {
-  /* border-radius: 10%; */
   width: 384px;
   height: 510px;
 }
@@ -579,7 +585,6 @@ span {
 
 .support-div h1 {
   font-weight: bolder;
-  font-size: 22px;
   margin: 10px 0;
   text-align: left;
 }
@@ -588,11 +593,9 @@ span {
   display: block;
   height: 0.1px;
   border-color: #111;
-  /* background-color: #111; */
   margin: 0px auto 10px;
 }
 .support-div p {
-  font-size: 18px;
   padding: 0 150px;
   margin-bottom: 30px;
   text-align: left !important;
@@ -632,12 +635,10 @@ span {
 .contact-card h2{
   text-align: center !important;
   font-weight: bold;
-  font-size: 20px;
 }
 .contact-card p {
   text-align: center !important;
   padding: 0 140px;
-  font-size: 20px;
 }
 
 .contact-card i {
@@ -681,14 +682,12 @@ footer hr {
 }
 
 .footer-center p {
-  font-size: 12px;
   font-weight: bold;
   color:#fff;
   text-align: center !important;
 }
 
 #contact {
-  font-size: 1.5rem;
   margin: 30px 0 0;
 }
 
@@ -735,6 +734,10 @@ footer hr {
     padding: 0 3px;
     background-color: #000032;
   }
+  .nav2 {
+    padding: 0 3px;
+    background-color: #000032;
+  }
 
   /* #logo1 {
     width: 80px;
@@ -743,17 +746,24 @@ footer hr {
   } */
 
   .brand1 {
-    font-size: 1.5rem;
-    position: relative;
-    left: 50%;
-    color:#fff !important;
-    transform: translateX(-50%);
-  }
-
-  .brand2 {
-    font-size: 2.5rem;
-    position: relative;
+    font-size: 2rem;
+    /* position: relative; */
     /* left: 50%; */
+    color:#fff !important;
+    /* transform: translateX(-50%); */
+  }
+.brand1-size{
+  font-size: 1.5rem;
+  transition-duration: 1.5s;
+}
+  .brand2 {
+    font-size: 2rem;
+    /* position: relative; */
+    /* left: 50%; */
+  }
+  .brand2-size{
+    font-size: 1.5rem;
+    transition-duration: 1.5s;
   }
 
   .nav-link{
@@ -882,7 +892,6 @@ footer hr {
 
   .support-div p {
     font-weight: bold;
-    font-size: 20px;
     padding: 0;
     text-align: justify !important;
   }
@@ -922,9 +931,8 @@ footer hr {
   }
 
   .contact-card p {
-    padding: 10px;
+    padding: 12px;
     text-align: center !important;
-    font-size: 20px;
   }
 
   .contact-card i {
