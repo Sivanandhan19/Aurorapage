@@ -355,6 +355,11 @@ span {
 }
 
 /* media styling */
+.carousel-gallery {
+  width:60%;
+  height:10%;
+  margin:10px auto 100px;
+}
 .my-gallery {
   display: flex;
   flex-flow: row wrap;
@@ -522,13 +527,11 @@ span {
 }
 
 .rover-div h1 {
-  /* font-size: 2rem; */
   font-weight: bolder;
   color: #90EE90;
 }
 
 .rover-div p {
-  /* font-size: 1rem; */
   font-weight: bolder;
   color: #fff;
   text-align: center;
@@ -622,7 +625,12 @@ span {
 
 .contact-card {
   height: 100%;
+  transition: 0.5s ease;
   box-shadow: 0.5px 0.5px 10px 0.2px rgba(0, 0, 0, 0.5);
+}
+
+.contact-card:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .contact-card h1 {
@@ -837,6 +845,11 @@ footer hr {
     height: 171px;
     margin: 2rem;
   }
+  .carousel-gallery {
+    width:60%;
+    height:10%;
+    margin:10px auto 100px;
+  }
 
   /* rover styling */
   .rover-div {
@@ -911,8 +924,12 @@ footer hr {
     text-align: center;
   }
 
+  .gmap_canvas{
+    padding: 30px;
+  }
   .contact {
     width: 100%;
+    padding: 30px;
   }
 
   .contact-card {

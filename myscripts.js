@@ -12,7 +12,7 @@ $(document).ready(function() {
     var w = window.innerWidth;
     var h = window.innerHeight;
     if (w < 800) {
-      window.scrollBy(0, 500);
+      window.scrollBy(0, 400);
     } else {
       window.scrollBy(0, 800);
     }
