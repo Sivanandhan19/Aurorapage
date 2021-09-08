@@ -10,7 +10,7 @@ $(document).ready(function() {
     var w = window.innerWidth;
     var h = window.innerHeight;
     if (w < 800) {
-      window.scrollBy(0, 400);
+      window.scrollBy(0, 580);
     } else {
       window.scrollBy(0, 750);
     }
