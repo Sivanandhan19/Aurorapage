@@ -6,7 +6,6 @@ html {
 body {
   background-color: #fff;
   text-align: center;
-  /* font-family: 'Montserrat', sans-serif; */
   font-size: 14px;
 }
 
@@ -29,7 +28,7 @@ p {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 4px;
 }
 
 body::-webkit-scrollbar-track {
@@ -44,13 +43,11 @@ body::-webkit-scrollbar-thumb {
 /* navbar styling */
 .nav1 {
   transition: 1000ms ease;
-  /* background: transparent; */
   background-color: rgba(0, 0, 0, 0.4);
   padding: 0px 40px;
 }
 
 .scrolled {
-  /* opacity: 0.5; */
   background-color: #000032;
 }
 
@@ -65,7 +62,7 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Gugi', cursive;
   opacity: 1;
   color: #fff;
-  font-size: 3rem;
+  font-size: 48px;
 }
 
 .brand2 {
@@ -73,19 +70,18 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
   font-family: 'Gugi', cursive;
   color: #fff !important;
-  font-size: 3rem;
+  font-size: 48px;
 }
 
 .brand1-size {
   opacity: 1 !important;
-  font-size: 2.5rem;
+  font-size: 40px;
   transition-duration: 1.5s;
-  /* color: #fff !important; */
 }
 
 .brand2-size {
   opacity: 1 !important;
-  font-size: 2.5rem;
+  font-size: 40px;
   transition-duration: 1.5s;
   color: #fff !important;
 }
@@ -141,7 +137,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .intro-bg {
-  width: 1680px;
+  width: 100%;
   height: 800px;
 }
 
@@ -231,7 +227,7 @@ body::-webkit-scrollbar-thumb {
   color: #ffffff;
   border-radius: 10px;
   width: 100%;
-  margin: 5% 0;
+  margin: 50px 0;
   padding: 0 200px;
 }
 
@@ -267,8 +263,8 @@ span {
 
 .intro h1 {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
   color: #000032;
+  font-size: 30px;
 }
 
 .intro p {
@@ -282,6 +278,10 @@ span {
 .achievement {
   display: flex;
   flex-direction: row;
+}
+.a-img{
+  width: 80%;
+  margin: 0 10px;
 }
 
 table, th, td {
@@ -318,7 +318,6 @@ td {
 
 /* team flexdiv styling */
 #flex-heading {
-  font-family: 'Oswald', sans-serif;
   color: #000032;
   font-size: 48px;
   margin-top: 20px;
@@ -377,13 +376,11 @@ td {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  /* flex-direction: row; */
 }
 
 /* Without Container */
 .zoom-without-container {
   transition: transform .2s;
-  /* Animation */
   margin: 0;
 }
 
@@ -395,7 +392,6 @@ td {
 
 .zoom-without-container:hover {
   transform: scale(1.3);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .my-gallery img {
@@ -414,7 +410,6 @@ td {
   transition: 0.3s ease;
   transform: scale(0.8);
   box-shadow: 1px 1px 5px 0.1px rgba(0, 0, 0, 0.5);
-  /* margin: 10px 30px; */
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -459,7 +454,7 @@ td {
 
 /* rover-styling */
 .rover-container h1 {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: bolder;
 }
 
@@ -640,14 +635,11 @@ td {
 }
 
 .gmap_canvas {
-  /* overflow: hidden; */
-  /* background: none !important; */
   width: 100%;
   height: 400px;
 }
 
 .gmap_iframe {
-  /* padding: 0 20px; */
   width: 100%;
   height: 400px;
 }
@@ -807,7 +799,6 @@ footer hr {
   .nav-link {
     color: #fff !important;
     font-size: 16px;
-    font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
   }
 
@@ -818,7 +809,7 @@ footer hr {
 
   /* bg-img styling */
   .intro-bg {
-    width: 1050px;
+    width: 100%;
     height: 400px;
   }
 
@@ -1001,21 +992,16 @@ footer hr {
   }
 
   .mapouter {
-    /* position: relative;
-    text-align: right; */
     width: 100%;
     height: 300px;
   }
 
   .gmap_canvas {
-    /* overflow: hidden;
-    background: none !important; */
     width: 100%;
     height: 300px;
   }
 
   .gmap_iframe {
-    /* padding: 0 0 0 20px; */
     width: 100%;
     height: 300px;
   }
@@ -1099,15 +1085,3 @@ footer hr {
     margin: 30px 20px 30px;
   }
 }
-
-/* @media screen and (max-width : 4096px) {
-  h1 {
-    text-align: center;
-    font-size: 22px;
-  }
-
-  p {
-    font-size: 18px;
-    text-align: center;
-  }
-} */
