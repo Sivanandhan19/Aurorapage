@@ -56,10 +56,18 @@ body::-webkit-scrollbar-thumb {
   padding: 0px 40px;
   background-color: #000032;
 }
-
+.logo-div{
+  display: flex;
+  flex-direction: row;
+}
+.logo-div img{
+  width: 25px;
+  margin: auto 5px;
+}
 .brand1 {
   transition: 800ms ease;
   font-family: 'Gugi', cursive;
+  margin: 0;
   opacity: 1;
   color: #fff;
   font-size: 48px;
@@ -68,6 +76,7 @@ body::-webkit-scrollbar-thumb {
 .brand2 {
   transition: 800ms ease;
   opacity: 1;
+  margin: 0;
   font-family: 'Gugi', cursive;
   color: #fff !important;
   font-size: 48px;
@@ -285,13 +294,14 @@ span {
 }
 
 table, th, td {
-  margin: 30px auto;
+  margin: 10px auto;
   border: 1px solid white;
   border-collapse: collapse;
 }
 
 th, td {
-  background-color: #96D4D4;
+  background-color: #990000;
+  color: #fff;
   padding: 5px;
 }
 
@@ -300,6 +310,8 @@ td {
 }
 
 .highlight {
+  padding: 15px;
+  text-align: center;
   background-color: #000032 !important;
   color: #fff;
 }
@@ -707,9 +719,11 @@ footer hr {
 
 .footer-left img {
   padding: 30px 0 0 10px;
-  width: 8rem;
+  width: 100px;
 }
-
+.itech-logo{
+  display: none;
+}
 .footer-center {
   width: 50%;
 }
@@ -725,13 +739,14 @@ footer hr {
 
 .footer-center p {
   font-size: 12px;
+  margin: 0;
   color: #fff;
   text-align: center !important;
 }
 
 #contact {
   font-size: 16px;
-  margin: 30px 0 0;
+  margin:10px 0 0;
 }
 
 #contact a {
@@ -751,7 +766,10 @@ footer hr {
 
 .footer-right img {
   padding: 30px 10px 0 0;
-  width: 6rem;
+  width: 80px;
+}
+.emblem{
+  display: none;
 }
 
 @media screen and (max-width : 800px) {
@@ -774,6 +792,10 @@ footer hr {
   }
 
   /* navbar styling */
+  .logo-div img{
+    width: 20px;
+    margin: auto 5px;
+  }
   .nav1 {
     padding: 0 3px;
     background-color: #000032;
@@ -836,6 +858,7 @@ footer hr {
   /* intro */
   .intro {
     padding: 0 20px;
+    margin:0;
   }
 
   .intro-div {
@@ -1057,9 +1080,7 @@ footer hr {
   }
 
   .footer-left {
-    width: 100%;
-    text-align: center !important;
-    margin: auto;
+    display: none;
   }
 
   #contact {
@@ -1067,9 +1088,13 @@ footer hr {
   }
 
   .footer-left img {
-    width: 76px;
-    margin: 0px;
-    padding: 0;
+    width: 56px;
+    padding: 0 10px;
+  }
+  .emblem{
+    display: inline;
+    width:56px;
+    padding: 10px;
   }
 
   .footer-center {
@@ -1080,14 +1105,13 @@ footer hr {
   .footer-right {
     width: 100%;
     text-align: center;
-    margin: 2% auto;
   }
 
   .footer-right img {
     width: 56px;
     transition: scale(0.2);
     margin: 5px auto 5px;
-    padding: 0;
+    padding: 0 10px;
   }
 
   footer p {
