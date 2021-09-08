@@ -400,6 +400,13 @@ td {
   margin: 5rem;
 }
 
+.video{
+  margin:0 auto;
+}
+video{
+  width:400px;
+}
+
 /* competition card styling */
 #competition-heading {
   font-weight: bolder;
@@ -916,7 +923,15 @@ footer hr {
 
   .carousel-gallery {
     width: 90%;
-    margin: 0px auto 50px;
+    margin: 0px auto 30px;
+  }
+
+  .video{
+    margin:0 auto;
+    padding: 0 10px;
+  }
+  video{
+    width:100%;
   }
 
   /* rover styling */
@@ -1008,7 +1023,7 @@ footer hr {
 
   .contact {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .contact-card {
