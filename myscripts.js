@@ -12,7 +12,7 @@ $(document).ready(function() {
     if (w < 800) {
       window.scrollBy(0, 400);
     } else {
-      window.scrollBy(0, 800);
+      window.scrollBy(0, 750);
     }
     console.log("w:" + w + "h:" + h);
   });

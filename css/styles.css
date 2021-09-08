@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
 }
 
 h2 {
@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb {
 .nav1 {
   transition: 1000ms ease;
   /* background: transparent; */
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 0px 40px;
 }
 
@@ -267,7 +267,6 @@ span {
 
 .intro h1 {
   text-align: center;
-  /* font-weight: bolder; */
   font-family: 'Oswald', sans-serif;
   color: #000032;
 }
@@ -278,6 +277,45 @@ span {
   margin: 0% 0% 1% 0%;
   text-align: justify !important;
   list-style-type: none;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: row;
+}
+
+table, th, td {
+  margin: 30px auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  background-color: #96D4D4;
+  padding: 5px;
+}
+
+td {
+  text-align: left;
+}
+
+.highlight {
+  background-color: #000032 !important;
+  color: #fff;
+}
+
+.a-1 {
+  width: 33.3%;
+}
+
+.a-2 {
+  width: 33.3%;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.a-3 {
+  width: 33.3%;
 }
 
 /* team flexdiv styling */
@@ -727,7 +765,7 @@ footer hr {
   }
 
   h1 {
-    padding: 16px 10px;
+    padding: 10px 10px;
     text-align: center;
     color: #000032;
     font-size: 32px !important;
@@ -774,8 +812,9 @@ footer hr {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
   }
+
   /* Top container*/
-  .top-container{
+  .top-container {
     margin-bottom: 0;
   }
 
@@ -821,6 +860,30 @@ footer hr {
     width: 100%;
   }
 
+  .achievement {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table {
+    width: 300px;
+  }
+
+  .a-1 {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .a-2 {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .a-3 {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
   /* competition styling */
   .card {
     flex-direction: column;
@@ -840,13 +903,16 @@ footer hr {
   .card-img {
     width: 100%;
   }
+
   /* Team styling */
-  .flex{
+  .flex {
     margin-top: 0;
   }
-  #flex-heading{
+
+  #flex-heading {
     font-size: 20px;
   }
+
   /* media styling */
   .my-gallery img {
     width: 300px;
@@ -985,7 +1051,6 @@ footer hr {
     font-size: 2rem;
   }
 
-
   /* footer styling  */
   footer {
     display: flex;
@@ -997,9 +1062,11 @@ footer hr {
     text-align: center !important;
     margin: auto;
   }
-  #contact{
+
+  #contact {
     margin: 0;
   }
+
   .footer-left img {
     width: 76px;
     margin: 0px;
