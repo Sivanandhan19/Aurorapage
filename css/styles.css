@@ -487,7 +487,6 @@ video {
 
 /* rover-styling */
 .rover-container h1 {
-  font-size: 40px;
   font-weight: bolder;
 }
 
@@ -567,14 +566,20 @@ video {
   justify-content: space-around;
 }
 
+.rover-hr{
+  height: 1px;
+  width: 50%;
+  background-color:#000032;
+}
+
 .rover-div h1 {
   /* font-weight: bolder; */
-  color: #90EE90;
+  color: #000032;
 }
 
 .rover-div p {
   /* font-weight: bolder; */
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -591,26 +596,26 @@ video {
   margin: 16px 0 48px;
   padding: 16px;
   width: 480px;
-  background-color: #000032;
-  box-shadow: 1px 1px 5px 0.1px rgba(0, 0, 0, 0.5);
+  /* background-color: #000032; */
+  /* box-shadow: 1px 1px 5px 0.1px rgba(0, 0, 0, 0.5); */
 }
 
 .rover-left:hover {
-  box-shadow: 0.4px 0.4px 5px 4px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.5s ease-in-out;
+  /* box-shadow: 0.4px 0.4px 5px 4px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.5s ease-in-out; */
 }
 
 .rover-right {
   margin: 16px 0 48px;
   padding: 16px;
   width: 480px;
-  background-color: #000032;
-  box-shadow: 1px 1px 5px 0.1px rgba(0, 0, 0, 0.5);
+  /* background-color: #000032; */
+  /* box-shadow: 1px 1px 5px 0.1px rgba(0, 0, 0, 0.5); */
 }
 
 .rover-right:hover {
-  box-shadow: 0.4px 0.4px 5px 4px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease-in-out;
+  /* box-shadow: 0.4px 0.4px 5px 4px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease-in-out; */
 }
 
 .rover-image {
@@ -618,8 +623,8 @@ video {
 }
 
 .rover-image img {
-  width: 384px;
-  height: 510px;
+  width: 303px;
+  height: 400px;
 }
 
 /* support styling */
@@ -1019,7 +1024,7 @@ footer hr {
   .rover-left {
     height: auto;
     width: 100%;
-    margin: 20px 0px;
+    margin: 0px;
     padding: 20px;
     border-radius: 0%;
   }
@@ -1027,7 +1032,7 @@ footer hr {
   .rover-right {
     height: auto;
     width: 100%;
-    margin: 20px 0px;
+    margin: 0px;
     padding: 20px;
     border-radius: 0%;
   }
